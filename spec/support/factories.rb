@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :webhook_event_log, class: WebhookSystem::EventLog do
     event_id 1
     subscription_id 1
